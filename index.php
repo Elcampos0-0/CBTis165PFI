@@ -1,16 +1,4 @@
 <?php
-
-// Punto 2. Query RP
-$query = "SELECT * FROM CBTis165PFI";
-$resultado = mysqli_query($conexion, $query); 
-
-// Security verification
-if (!$resultado) {
-    die("Error en la consulta: " . mysqli_error($conexion));
-}
-?>
-
-<?php
 // Usamos getenv() que es el método más seguro en Railway
 $host = getenv('MYSQLHOST');
 $port = getenv('MYSQLPORT');
@@ -22,6 +10,18 @@ $conexion = mysqli_connect($host, $user, $pass, $db, $port);
 
 if (!$conexion) {
     die("Error de conexión: " . mysqli_connect_error());
+}
+?>
+
+<?php
+
+// Punto 2. Query RP
+$query = "SELECT * FROM CBTis165PFI";
+$resultado = mysqli_query($conexion, $query); 
+
+// Security verification
+if (!$resultado) {
+    die("Error en la consulta: " . mysqli_error($conexion));
 }
 ?>
 
@@ -92,9 +92,9 @@ if (!$conexion) {
                         <tr>
                             <th>ID</th>
                             <th>Programa</th>
-                            <th>Descripión</th>
-                            <th>Áreas</th>
-                            <th>Participación</th>
+                            <th>Descripion</th>
+                            <th>Impactos</th>
+                            <th>Participacion</th>
                         </tr>
                     </thead>
 
@@ -105,9 +105,9 @@ if (!$conexion) {
                             echo "<tr class = 'aparece'>"; //Animated rows class
                             echo "<td><em>" . $row['ID'] . "</em></td>";
                             echo "<td><em>" . $row['Programa'] . "</em></td>";
-                            echo "<td><em>" . $row['Descripción'] . "</em></td>";
-                            echo "<td><em>" . $row['Áreas'] . "</em></td>";
-                            echo "<td><em>" . $row['Participación'] . "</em></td>";
+                            echo "<td><em>" . $row['Descripcion'] . "</em></td>";
+                            echo "<td><em>" . $row['Impactos'] . "</em></td>";
+                            echo "<td><em>" . $row['Participacion'] . "</em></td>";
                             echo "</tr>";
                         }
                         ?>
