@@ -116,10 +116,6 @@ body{
     height: 50;
 }
 
-footer{
-    align-items: center;
-}
-
 .contenedor {
     text-align: center; /* Centra horizontalmente el contenido inline */
     border-radius: 20%;
