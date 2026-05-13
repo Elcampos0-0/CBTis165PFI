@@ -221,7 +221,7 @@ if(isset($_POST['enviar'])){
     $query = mysqli_query($conexion, $sql);
 
     if($query){
-        echo "¡Muchas gracias tu opinion nos ayuda a mejorar!.";
+        echo "Apreciamos tu opinión";
     } else {
         // ESTA LÍNEA ES CLAVE: Te dirá qué tiene de malo tu base de datos
         echo "Error de SQL: " . mysqli_error($conexion);
