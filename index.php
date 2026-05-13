@@ -154,7 +154,7 @@ if (!$resultado) {
 
             <h3>Sexual-Mente Responsable</h3>
             <p>Proyecto Aula Escuela Comunidad</p>
-            <p>El PAEC es un programa diseñado para la educación media superior que busca articular a los actores educativos y comunitarios en la construcción de aprendizajes significativos y contextualizados, mediante el desarrollo de Proyectos Escolares Comunitarios (PEC). Su enfoque se centra en la autonomía docente, la transversalidad de los contenidos curriculares y la participación activa del estudiantado como agentes de transformación social </p>
+            <p>Busca promover la salud sexual y reproductiva entre adolescentes en planteles de educación tecnológica, ofreciendo orientación, consejería y servicios amigables para prevenir embarazos no deseados, infecciones de transmisión sexual y fomentar relaciones basadas en respeto y consentimiento.</p>
         <div class = "Image4">
             <img src = "SX.jpg" alt = "Sexual - Mente Responsable">
         </div>
