@@ -87,7 +87,7 @@ if (!$resultado) {
 
         <section id = "Programas" class = "aparece">
             <h2>Iniciativas de programas impulsados por la comunidad DGETI</h2>
-                <table>
+                <table class = "CSSPHP">
                     <thead>
                         <tr>
                             <th>ID</th>

@@ -23,6 +23,11 @@
     height: 80px;
 }
 
+.CSSPHP{
+    font-family: 'Bahnschrift';
+    gap: 20px;
+}
+
 .a{
     width: 500px;
     height: auto;
@@ -65,7 +70,7 @@ body{
 }
 
 .Image1{
-    
+
 }
 
 .Image2{
