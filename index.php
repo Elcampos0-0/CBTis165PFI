@@ -212,7 +212,7 @@ if (!$resultado) {
         <!-- Social media in a single line-->
 
         <div style = "display: flex; gap: 20px; align-items: center;">
-        <a href = "https://wa.me/522281196948" target = "_blank" style = "text-decoration: none; color: inherit;">
+        <a href = "https://wa.me/522282120924" target = "_blank" style = "text-decoration: none; color: inherit;">
             <img src = "W.png" alt = "WhatsApp" width = "20" height = "20">
             228 212 0924
         </a>
