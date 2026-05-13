@@ -204,6 +204,13 @@ if (!$resultado) {
         </section>
         </div>
 
+		<form method="POST">
+                <div class = "input-box">
+                <label>¿Fué de tu agrado la página?</label><br>
+				<p>¡Escríbenos!</p>
+                    <input type = "text" name = "opinion" placeholder = "Tu opinión..."><br><br>
+				</div
+
     <footer class = "aparece">
         <p><strong>CBTis 165 "Leona Vicario"</strong></p>
         <p>Ubicación: Carretera Antigua Xalapa - Coatepec Km 8.5, Consolapa. Coatepec, Veracruz.</p>
