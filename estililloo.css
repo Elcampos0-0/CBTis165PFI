@@ -289,32 +289,32 @@ td img:hover {
 }
 
 h1{
-    color: black;
+    color: burlywood;
     font-family: 'Bahnschrift';
     font-size: 100px;
     font-weight: bold;
 
 }
 h2{
-    color: white;
+    color: burlywood;
     font-size: 20px;
     font-family: 'Bahnschrift';
 }
 
 h3{
-    color: white;
+    color: burlywood;
     font-family: 'Bahnschrift';
     font-size: 30px;
 }
 
 p{
-    color: #2C3947;
+    color: burlywood;
     font-family: 'Bahnschrift';
     font-size: 25px;
 }
 
 ol{
-    color: #2C3947;
+    color: burlywood;
     font-family: 'Bahnschrift';
     font-size: 20px;
 }
