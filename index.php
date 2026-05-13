@@ -101,7 +101,7 @@ if (!$resultado) {
                     <tbody>
                         <?php
                         // Punto 3: Automatically generation of while cicle
-                        while ($row = mysqli_fetch_array($res)) {
+                        while ($row = mysqli_fetch_array($resultado)) {
                             echo "<tr class = 'aparece'>"; //Animated rows class
                             echo "<td><em>" . $row['ID'] . "</em></td>";
                             echo "<td><em>" . $row['Programa'] . "</em></td>";
