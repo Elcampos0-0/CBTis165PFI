@@ -92,7 +92,7 @@ if (!$resultado) {
                         <tr>
                             <th>ID</th>
                             <th>Programa</th>
-                            <th>Descripion</th>
+                            <th>Descripcion</th>
                             <th>Impactos</th>
                             <th>Participacion</th>
                         </tr>
