@@ -92,7 +92,7 @@ if (!$resultado) {
                         <tr>
                             <th>ID</th>
                             <th>Programa</th>
-                            <th>Descripcion</th>
+                            <th>Descripion</th>
                             <th>Impactos</th>
                             <th>Participacion</th>
                         </tr>
@@ -101,7 +101,7 @@ if (!$resultado) {
                     <tbody>
                         <?php
                         // Punto 3: Automatically generation of while cicle
-                        while ($row = mysqli_fetch_array($resultado)) {
+                        while ($row = mysqli_fetch_array($res)) {
                             echo "<tr class = 'aparece'>"; //Animated rows class
                             echo "<td><em>" . $row['ID'] . "</em></td>";
                             echo "<td><em>" . $row['Programa'] . "</em></td>";
@@ -212,7 +212,7 @@ if (!$resultado) {
         <!-- Social media in a single line-->
 
         <div style = "display: flex; gap: 20px; align-items: center;">
-        <a href = "https://wa.me/522282120924" target = "_blank" style = "text-decoration: none; color: inherit;">
+        <a href = "https://wa.me/522281196948" target = "_blank" style = "text-decoration: none; color: inherit;">
             <img src = "W.png" alt = "WhatsApp" width = "20" height = "20">
             228 212 0924
         </a>

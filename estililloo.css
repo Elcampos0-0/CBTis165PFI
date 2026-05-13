@@ -65,11 +65,13 @@ body{
 }
 
 .Image1{
-
+    width: 50;
+    height: 50;
 }
 
 .Image2{
-
+    width: 50;
+    height: 50;
 }
 
 .caja2{
@@ -77,11 +79,13 @@ body{
 }
 
 .Image3{
-
+    width: 50;
+    height: 50;
 }
 
 .Image4{
-
+    width: 50;
+    height: 50;
 }
 
 .caja3{
@@ -89,11 +93,13 @@ body{
 }
 
 .Image5{
-
+    width: 50;
+    height: 50;
 }
 
 .Image6{
-
+    width: 50;
+    height: 50;
 }
 
 .caja4{
@@ -101,11 +107,17 @@ body{
 }
 
 .Image7{
-
+    width: 50;
+    height: 50;
 }
 
 .Image8{
+    width: 50;
+    height: 50;
+}
 
+footer{
+    align-items: center;
 }
 
 .contenedor {
