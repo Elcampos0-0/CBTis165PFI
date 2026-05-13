@@ -209,7 +209,28 @@ if (!$resultado) {
                 <label>¿Fué de tu agrado la página?</label><br>
 				<p>¡Escríbenos!</p>
                     <input type = "text" name = "opinion" placeholder = "Tu opinión..."><br><br>
-				</div
+				<input type = "submit" name = "enviar" value = "enviar">
+
+					<?php
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+if(isset($_POST['enviar'])){
+    // 1. Recibimos datos
+    $opinion = $_POST['opinion'];
+    $sql = "INSERT INTO parecio (opinion) VALUES ('$opinion')";
+    $query = mysqli_query($conexion, $sql);
+
+    if($query){
+        echo "¡Muchas gracias tu opinion nos ayuda a mejorar!.";
+    } else {
+        // ESTA LÍNEA ES CLAVE: Te dirá qué tiene de malo tu base de datos
+        echo "Error de SQL: " . mysqli_error($conexion);
+    }
+} 
+?>
+				</div>
+			
+			
 
     <footer class = "aparece">
         <p><strong>CBTis 165 "Leona Vicario"</strong></p>
